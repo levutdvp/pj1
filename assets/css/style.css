@@ -58,6 +58,9 @@ html {
 .mt-16{
     margin-top: 16px !important;
 }
+.mt-32{
+    margin-top: 32px!important;
+}
 .pull-right{
     float: right !important;
 }
@@ -69,6 +72,7 @@ padding: 11px 16px;
 display: inline-block;
 margin-top: 15px;
 border: none;
+-webkit-appearance: none;
 }
 .btn:hover{
     color: #000;
@@ -86,7 +90,7 @@ border: none;
   left:0;
   right:0;
   z-index: 1;
-  overflow: hidden;
+  
 }
 #nav {
     display: inline-block;
@@ -177,7 +181,7 @@ border: none;
 position: relative;
 margin-top: 46px;
 padding-top: 50%;
-background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
 
 }
 #slider .text-content{
@@ -195,6 +199,7 @@ text-align: center;
 #slider .text-description{
 font-size: 15px;
 margin-top: 25px;
+text-shadow: 0 0 1px #000;
 }
 
 #content .content-section{
@@ -228,7 +233,7 @@ margin-top: 25px;
     line-height: 1.4;
 }
 #content .member-list{
-    margin-top: 48px;
+    margin-top: 32px;
    
 }
 #content .member-name{
@@ -274,7 +279,7 @@ background-color: #000;
 }
 /* places */
 .place-list{
-margin-top: 32px;
+margin-top: 16px;
 }
 
 .place-img{
@@ -317,6 +322,13 @@ line-height: 1.4;
     width: 30px;
     display: inline-block;
 
+}
+.contact-info a{
+    color: #101aef;
+    opacity: 0.8;
+}
+.contact-info a:hover{
+    opacity: 1;
 }
 .contact-form{
     font-size: 15px;
@@ -383,12 +395,9 @@ color: rgba(0, 0, 0, 0.4);
     align-items: center;
     color: #fff;
     font-size: 30px;
-
-
 }
 .modal .modal-heading-icon {
     margin-right: 16px;
-
 }
 .modal-close{
     position: absolute;
